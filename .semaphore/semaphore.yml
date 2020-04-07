@@ -19,6 +19,7 @@ blocks:
           - echo $APP_ENV
           - echo "Docker build..."
           - echo "done"
+          - exit 1
 
   - name: "Smoke tests"
     task:
